@@ -7,7 +7,7 @@ https://www.rocketseat.com.br/boracodar/desafios-anteriores/um-player-de-musica-
 * HTML
 * CSS
 ## Project
-[Screenshot 2023-04-13 140542](https://user-images.githubusercontent.com/61170186/231835347-82cf2383-d947-4f9d-8ec5-a96077b7444d.png)
+[Music Player](https://user-images.githubusercontent.com/61170186/231835347-82cf2383-d947-4f9d-8ec5-a96077b7444d.png)
 
 
 Thank you for checking my project!
