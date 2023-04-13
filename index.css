@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap');
+:root{
+    --card_color : #2A2141
+}
+html,body{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #0F0D13;
+    font-family: 'Roboto';
+}
+/* PLAYERS */
+.players{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+}
+.first{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.second{
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.player_card{
+    background: var(--card_color);
+    padding: 3.8em;
+    border-radius: 0.96em;
+}
+.cover{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.9em;
+}
+.album img{
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 0.6em;
+    object-fit: cover;
+}
+ /* INFO */
+ .info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.96em;
+ }
+.info h2{
+   font-size: 2.8em;
+   font-weight: 700; 
+   color: #E1E1E6;
+   margin: 0;
+}
+.info p{
+    color: #E1E1E6;
+    font-weight: 400;
+    font-size: 1.9em;
+    opacity: 0.67;
+    margin: 0;
+}
+ /* ICON */
+ i{
+    font-size: 2.8em;
+    color: #E1E1E6;
+ }
+ .options{
+    display: flex;
+    gap: 5em;
+    justify-content: space-between;
+ }
+ /* MUSIC */
+.music{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+ .bar{
+    width: 85%;
+    border-radius: 0.9em;
+    background: #D9D9D9;
+    height: 4px;
+    opacity: 0.8;
+    border-radius: 0.9em;
+ }
+ .final{
+    opacity: 0.3;
+    position: absolute;
+    width: 100%;
+    top: 0;
+ }
+ .time{
+    display: flex;
+    justify-content: space-between;
+    color:#D9D9D9;
+    font-size: 1.4em;
+    font-weight: 400;
+    opacity: 0.67;
+ }
+
+
+ /* SECOND PLAYER */
+
+ .album_2 img{
+    aspect-ratio: 1/1;
+    width: 15em;
+    border-radius: 0.6em;
+    object-fit: cover;
+}
+.cover_2{
+    width: 269px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.9em;
+}
+.flex{
+    display: flex;
+    gap: 2.9em;
+    align-items: center;
+}
